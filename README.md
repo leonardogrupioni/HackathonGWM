@@ -46,7 +46,7 @@ O aplicativo é desenvolvido utilizando:
 - Gestão segura e organizada da saúde dos filhos em um ambiente amigável e móvel.
 
 ## Planos Futuros
-
+ 
 - Lançar o produto para uso público.
 - Parceria com Meu SUS Digital.
 - Integração de um banco de dados completo.
