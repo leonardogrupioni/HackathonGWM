@@ -56,3 +56,11 @@ O aplicativo é desenvolvido utilizando:
 ## Estado Atual Do Projeto
 
 O projeto encontra-se em produção, foi utilizado o Figma como base para criação das telas e a implementação está sendo feita utilizando HTML, CSS e JS.
+
+## Material Produzido no Hackathon
+
+a) Video Pitch - Link: https://youtu.be/kMmgZ_P0ujA 
+b) Video Demo - Link: https://youtu.be/RKrP6AxgS0I 
+c) Apresentação no repositório:
+d) Link público do repositório: https://github.com/leonardogrupioni/HackathonGWM 
+e) Link da Solução: https://www.figma.com/proto/2wVzw4BY6LJ20g5CzlDcL7/App-Cuidados-Maternos?node-id=99-174&t=YbZwDoUSfhqn3Vh0-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=99%3A174 
