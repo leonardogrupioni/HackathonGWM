@@ -59,8 +59,8 @@ O projeto encontra-se em produção, foi utilizado o Figma como base para criaç
 
 ## Material Produzido no Hackathon
 
-a) Video Pitch - Link: https://youtu.be/kMmgZ_P0ujA 
-b) Video Demo - Link: https://youtu.be/RKrP6AxgS0I 
-c) Apresentação no repositório: https://github.com/leonardogrupioni/HackathonGWM/blob/main/C_Apresentacao_MenosEMaisDevs%20(1).pdf
-d) Link público do repositório: https://github.com/leonardogrupioni/HackathonGWM 
-e) Link da Solução: https://www.figma.com/proto/2wVzw4BY6LJ20g5CzlDcL7/App-Cuidados-Maternos?node-id=99-174&t=YbZwDoUSfhqn3Vh0-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=99%3A174 
+- Video Pitch - Link: https://youtu.be/kMmgZ_P0ujA 
+- Video Demo - Link: https://youtu.be/RKrP6AxgS0I 
+- Apresentação no repositório: https://github.com/leonardogrupioni/HackathonGWM/blob/main/C_Apresentacao_MenosEMaisDevs%20(1).pdf
+- Link público do repositório: https://github.com/leonardogrupioni/HackathonGWM 
+- Link da Solução: https://www.figma.com/proto/2wVzw4BY6LJ20g5CzlDcL7/App-Cuidados-Maternos?node-id=99-174&t=YbZwDoUSfhqn3Vh0-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=99%3A174 
