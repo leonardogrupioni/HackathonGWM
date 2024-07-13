@@ -2,7 +2,7 @@
 
 Link do Regulamento: https://brasil.campus-party.org/wp-content/uploads/2024/07/CPBR16_-_Regulamento_HACKATHON-GWM.pdf 
 
-## APP Cuidados Maternos
+# APP Cuidados Maternos
 
 ## Equipe Menos é Mais Devs
 
