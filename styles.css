@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.screen {
+    padding: 20px;
+    display: none;
+}
+
+.screen.active {
+    display: block;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu, .settings-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-btn, .settings-btn, .faq-btn, .login-btn, .back-btn, .sync-btn, .export-btn, .share-btn, .delete-btn, .add-btn {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.menu-btn:hover, .settings-btn:hover, .faq-btn:hover, .login-btn:hover, .back-btn:hover, .sync-btn:hover, .export-btn:hover, .share-btn:hover, .delete-btn:hover, .add-btn:hover {
+    background-color: #0097a7;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-btn {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0097a7;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.children-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.child img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.child p {
+    margin: 0;
+}
+
+.faq-btn, .sync-btn, .export-btn, .share-btn, .delete-btn, .add-btn {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+}

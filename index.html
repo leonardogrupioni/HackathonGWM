@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidados Maternos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Tela Principal -->
+        <div id="mainScreen" class="screen active">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <h3>Miguel da Silva</h3>
+                <p>CPF 123.456.789-10</p>
+                <p>11/09/2020 (3 anos)</p>
+            </div>
+            <div class="menu">
+                <button class="menu-btn" onclick="showScreen('vaccinesScreen')">Vacinas</button>
+                <button class="menu-btn" onclick="showScreen('appointmentsScreen')">Consultas</button>
+                <button class="menu-btn" onclick="showScreen('examsScreen')">Exames</button>
+                <button class="menu-btn" onclick="showScreen('medicationsScreen')">Remédios</button>
+                <button class="menu-btn" onclick="showScreen('medicalRecordScreen')">Ficha Médica</button>
+                <button class="menu-btn" onclick="showScreen('nutritionScreen')">Alimentação</button>
+                <button class="menu-btn" onclick="showScreen('faqScreen')">Tire Suas Dúvidas</button>
+            </div>
+        </div>
+        
+        <!-- Tela de Vacinas -->
+        <div id="vaccinesScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Vacinas</h2>
+            <div class="accordion">
+                <button class="accordion-btn">Vacinas Aplicadas</button>
+                <div class="accordion-content">
+                    <p>Vacina Covid-19 Pfizer 1ª Dose</p>
+                    <p>Data: 27/10/2023</p>
+                    <p>Local: UBS Jardim</p>
+                    <!-- Adicione mais vacinas aqui -->
+                </div>
+                <button class="accordion-btn">Vacinas Agendadas</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Vacinas Ainda Não Aplicadas</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+            </div>
+            <button class="sync-btn">Sincronizar com Meu SUS Digital</button>
+        </div>
+        
+        <!-- Tela de Consultas -->
+        <div id="appointmentsScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Consultas</h2>
+            <div class="accordion">
+                <button class="accordion-btn">Consultas Agendadas</button>
+                <div class="accordion-content">
+                    <p>Dr. Carlos de Souza Cunha - Pediatria Geral</p>
+                    <p>Data: 17/11/2024</p>
+                    <p>Local: Hospital das Clínicas</p>
+                    <!-- Adicione mais consultas agendadas aqui -->
+                </div>
+                <button class="accordion-btn">Consultas Realizadas</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Chat com Médicos</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+            </div>
+            <button class="sync-btn">Sincronizar com Meu SUS Digital</button>
+        </div>
+
+        <!-- Tela de Exames -->
+        <div id="examsScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Exames</h2>
+            <div class="accordion">
+                <button class="accordion-btn">Exames Agendados</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Exames Realizados</button>
+                <div class="accordion-content">
+                    <p>Exame de Sangue</p>
+                    <p>Data: 09/04/2024</p>
+                    <p>Local: Delboni</p>
+                    <!-- Adicione mais exames realizados aqui -->
+                </div>
+            </div>
+            <button class="sync-btn">Sincronizar com Meu SUS Digital</button>
+        </div>
+        
+        <!-- Tela de Remédios -->
+        <div id="medicationsScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Remédios</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+
+        <!-- Tela de Ficha Médica -->
+        <div id="medicalRecordScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Ficha Médica</h2>
+            <div class="accordion">
+                <button class="accordion-btn">Alergias</button>
+                <div class="accordion-content">
+                    <p>Intolerância ao glúten/Doença celíaca</p>
+                    <p>Intolerância à lactose - Média</p>
+                </div>
+                <button class="accordion-btn">Histórico de Doenças</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Cirurgias</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Medicações</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Tipo Sanguíneo</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+                <button class="accordion-btn">Informações Físicas</button>
+                <div class="accordion-content">
+                    <!-- Conteúdo -->
+                </div>
+            </div>
+            <button class="export-btn">Exportar PDF</button>
+            <button class="share-btn">Compartilhar via QR-Code</button>
+        </div>
+        
+        <!-- Tela de Alimentação -->
+        <div id="nutritionScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Alimentação</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+
+        <!-- Tela de Tire Suas Dúvidas -->
+        <div id="faqScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Tire Suas Dúvidas</h2>
+            <button class="faq-btn" onclick="window.location.href='https://www.doctoralia.com.br/'">Doctoralia - Fórum com Médicos</button>
+            <button class="faq-btn" onclick="window.location.href='https://www.gov.br/saude/'">Gov.br - Ministério da Saúde</button>
+            <button class="faq-btn">Fale com uma IA 24h</button>
+        </div>
+
+        <!-- Tela de Login -->
+        <div id="loginScreen" class="screen">
+            <h2>Cuidados Maternos</h2>
+            <p>Qual Perfil deseja Acessar</p>
+            <button class="login-btn" onclick="showScreen('patientLoginScreen')">Paciente</button>
+            <button class="login-btn" onclick="showScreen('doctorLoginScreen')">Médico</button>
+        </div>
+        
+        <!-- Tela de Login Paciente -->
+        <div id="patientLoginScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('loginScreen')">Voltar</button>
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Digite seu CPF" required>
+                <input type="password" placeholder="Digite sua Senha" required>
+                <button type="submit">Acessar</button>
+            </form>
+            <p>Ainda não possui uma conta? <a href="#" onclick="showScreen('registerScreen')">Cadastre-se</a></p>
+        </div>
+
+        <!-- Tela de Registro -->
+        <div id="registerScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('patientLoginScreen')">Voltar</button>
+            <h2>Novo Usuário</h2>
+            <form>
+                <input type="text" placeholder="Digite seu nome" required>
+                <input type="text" placeholder="Digite seu CPF" required>
+                <input type="email" placeholder="Digite seu email" required>
+                <input type="password" placeholder="Digite sua senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p>Já possui uma conta? <a href="#" onclick="showScreen('patientLoginScreen')">Faça o login</a></p>
+        </div>
+        
+        <!-- Tela de Login Médico -->
+        <div id="doctorLoginScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('loginScreen')">Voltar</button>
+            <h2>Login Médico</h2>
+            <form>
+                <input type="text" placeholder="Digite seu CPF" required>
+                <input type="password" placeholder="Digite sua Senha" required>
+                <button type="submit">Acessar</button>
+            </form>
+        </div>
+        
+        <!-- Tela de Perfil -->
+        <div id="profileScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Perfil</h2>
+            <div class="profile-info">
+                <img src="profile.jpg" alt="Profile Picture">
+                <h3>Marina da Silva</h3>
+                <p>Mãe do Miguel e da Maria</p>
+            </div>
+            <div class="menu">
+                <button class="menu-btn" onclick="showScreen('editProfileScreen')">Editar Perfil</button>
+                <button class="menu-btn" onclick="showScreen('locationScreen')">Localização</button>
+                <button class="menu-btn" onclick="showScreen('editChildrenScreen')">Editar Filhos</button>
+                <button class="menu-btn" onclick="showScreen('logout')">Desconectar</button>
+            </div>
+        </div>
+
+        <!-- Tela de Editar Perfil -->
+        <div id="editProfileScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('profileScreen')">Voltar</button>
+            <h2>Editar Perfil</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+
+        <!-- Tela de Localização -->
+        <div id="locationScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('profileScreen')">Voltar</button>
+            <h2>Localização</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+
+        <!-- Tela de Editar Filhos -->
+        <div id="editChildrenScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('profileScreen')">Voltar</button>
+            <h2>Filhos e Filhas</h2>
+            <button class="add-btn">Adicionar Filho</button>
+            <div class="children-list">
+                <div class="child">
+                    <img src="child1.jpg" alt="Child Picture">
+                    <p>Miguel da Silva</p>
+                </div>
+                <div class="child">
+                    <img src="child2.jpg" alt="Child Picture">
+                    <p>Maria da Silva</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tela de Configurações -->
+        <div id="settingsScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('mainScreen')">Voltar</button>
+            <h2>Configurações</h2>
+            <div class="settings-menu">
+                <button class="settings-btn" onclick="showScreen('darkModeScreen')">Modo Escuro</button>
+                <button class="settings-btn" onclick="showScreen('accessibilityScreen')">Acessibilidade</button>
+                <button class="settings-btn" onclick="showScreen('supportScreen')">Suporte</button>
+                <button class="settings-btn" onclick="showScreen('termsScreen')">Termos e Condições</button>
+                <button class="settings-btn" onclick="showScreen('privacyScreen')">Políticas de Privacidade</button>
+                <button class="settings-btn" onclick="showScreen('deleteAccountScreen')">Apagar Conta</button>
+            </div>
+        </div>
+        
+        <!-- Outras telas de configuração -->
+        <div id="darkModeScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Modo Escuro</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+        
+        <div id="accessibilityScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Acessibilidade</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+        
+        <div id="supportScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Suporte</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+        
+        <div id="termsScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Termos e Condições</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+        
+        <div id="privacyScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Políticas de Privacidade</h2>
+            <!-- Adicione conteúdo aqui -->
+        </div>
+        
+        <div id="deleteAccountScreen" class="screen">
+            <button class="back-btn" onclick="showScreen('settingsScreen')">Voltar</button>
+            <h2>Apagar Conta</h2>
+            <button class="delete-btn">Apagar Conta</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
