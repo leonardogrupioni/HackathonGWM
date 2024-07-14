@@ -1,8 +1,13 @@
-# Hackathon GWM - Campus Party Brasil 16 - 2024
+# Projeto Vencedor do Hackathon GWM 
+# Campus Party Brasil 16 - 2024
 
 Link do Regulamento: https://brasil.campus-party.org/wp-content/uploads/2024/07/CPBR16_-_Regulamento_HACKATHON-GWM.pdf 
 
 # APP Cuidados Maternos
+
+## [Linktree com Mais Informações](https://linktr.ee/appcuidadosmaternos)
+
+## [Vídeo - Anúncio dos Vencedores](https://youtu.be/OqBNfUk92oQ)
 
 ## Equipe Menos é Mais Devs
 
